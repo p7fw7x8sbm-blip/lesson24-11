@@ -11,7 +11,7 @@ df = pd.DataFrame(data)
 
 # Display Sample Data
 st.write("### Sales Data")
-st.write(df)
+st.write(df)  # show datafame ; DF in exam!!
 
 # Slider for Sales Range
 sales_range = st.slider("Select Sales Range", min_value=0, max_value=1500, value=(500, 1000))
