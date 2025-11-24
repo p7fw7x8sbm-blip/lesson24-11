@@ -9,7 +9,7 @@ with st.sidebar:                                          # create new area
         menu_title = "Menu",
         options = ["Home", "About", "Contact"],           # use list [] 
         icons = ["house", "cloud-upload", "list-task"],
-        menu_icon= "emoji-smile-fill",
+        menu_icon= "cast",
         default_index=0,
     )
 
