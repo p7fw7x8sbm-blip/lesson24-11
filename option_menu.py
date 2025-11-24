@@ -7,7 +7,7 @@ st.write('This is your Python Programming course.')
 with st.sidebar:                                          # create new area
     selected=option_menu(                                 # customize option menu
         menu_title = "Menu",
-        options = ["Home", "About", "Contact"],           # use list
+        options = ["Home", "About", "Contact"],           # use list [] 
         icons = ["house", "cloud-upload", "list-task"],
         menu_icon= "emoji-smile-fill",
         default_index=0,
